@@ -1,0 +1,29 @@
+/*Css aplica estilo de acordo com tag*/
+
+/*trocar a cor de funfo da oagina, usa a tag 'body'*/
+
+body {
+    background-color: rgb(130, 69, 69);/*moda a cor do fundo*/
+    color: aliceblue;/*troca a cor da fonte*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*troca o estilo da fonte*/
+}
+
+img {
+    width: 500px; /*Largura do elemento*/
+    /*height:500px;*/
+}
+
+button{
+    background-color: black; /*cor de fundo do botão*/
+    color: aliceblue; /* cor da fonte*/
+    border: none; /*retira a borda do botão*/
+    border-radius: 5px; /*fica mais redomda*/
+    font-family: 'Times New Roman', Times, serif; /*troca a fonte*/
+    padding: 10px 15px 10px 15px; /*muda a medida do botão*/
+}
+
+button:hover{
+    background-color:  rgba(255, 255, 255, 0.402);
+    color: rgb(90, 90, 91);
+    cursor: pointer;
+}

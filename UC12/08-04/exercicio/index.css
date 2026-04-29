@@ -1,0 +1,25 @@
+div{
+    background-color: rgb(124, 124, 255);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    display: none;
+}
+
+span{
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.box{
+    display: none;
+    visibility: hidden;
+    
+}
+
+a{
+    margin: 5px;
+    display: inline-block;
+    background-color: aqua;
+}

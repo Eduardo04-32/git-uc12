@@ -1,0 +1,15 @@
+.container-pai{
+    background-color: coral;
+    height: 100px;
+    display: flex; /*esse cara controlaos elementos*/
+    flex-direction: row; /* controla a direção*/ 
+    justify-content: space-around; /*controla o o alinhamento no eixo principal*/
+    align-items: center; /*controla o alinhamento no eixo secundario*/
+    flex-wrap: wrap ; /*control  se os itens vão ou não quebara linhas quandon espeço for insuficioente*/
+}
+
+.container-pai > div{
+    height: 20%;
+    border-color: aquamarine;
+    width: 150px;
+}

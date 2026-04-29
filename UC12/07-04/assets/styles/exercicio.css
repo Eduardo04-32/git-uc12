@@ -1,0 +1,68 @@
+/*EXERCICIO 01*/
+/*
+ div{
+  width: 200px;
+  background-color: rgb(144, 144, 144);
+  padding: 20px;
+  
+  border: 2px solid ;
+}
+*/
+/*EXERCICIO 02*/
+/*Ele crese de forma vertical , de direita para esquerda*/
+*{
+    box-sizing: border-box;
+}
+
+/*ECERCICIO 03*/
+/*Margin*/
+
+.box1{
+    background-color:  brown;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.box2{
+    background-color: rgb(136, 136, 235);
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+}
+
+/*EXERCICIO 04*/
+/*A medida total é de 250px*/
+
+.box3 {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  /*05*/
+  box-sizing: border-box;
+  /*Agora so o tamanho dele ´[e 200 px*/
+}
+
+/*EXERCICIO 06*/
+.margem{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: bisque;
+
+    /*se não tiver width, ele automaticamente se expande lateralmente*/
+}
+
+/*EXERCICIO 07*/
+.box01, .box02 {
+  height: 100px;
+  margin: 20px;
+  background-color: rgb(36, 115, 89);
+  /*ele tem 140 pix em total*/
+}  
+
+
+
+

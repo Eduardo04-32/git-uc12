@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url('../fonts/CoolveticaRg.otf');
+}
+
+
+
+
+.tela {
+    width: 100vw;
+    height: 460px;
+    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/f2bdd87875b669064267a59d6667a856778a3fbd1ac3c1b7df1100ed57d02222.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.apresenta {
+    justify-content: center;
+    color: aliceblue;
+
+}
+
+header {
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(26, 5, 5);
+    padding: 15px 80px 15px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: rgb(255, 3, 3);
+    text-decoration: none;
+    font-size: larger;
+    margin: 10px;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(117, 2, 2);
+    cursor: pointer;
+}
+
+header img {
+    width: 150px;
+}
+
+.pelicula{
+
+    transition: 0.5s ease-in-out;
+    cursor: pointer; ;
+}
+
+.pelicula:hover{
+    transform: scale(1.1);
+
+}
+
+.filmes {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.apresenta {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.pelicula img {
+    width: 215px;
+    height: 300px;
+    object-fit: cover;
+    /*ocupa toda o espaçpo da imagem*/
+    border: 5px solid rgb(16, 1, 1);
+    box-shadow: 5px 5px 30px rgb(74, 12, 12);
+
+}
+
+.tela .apresenta h1 {
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+
+}
+
+
+.apresenta button {
+
+    height: 35px;
+    width: 150px;
+    margin-top: 20px;
+    /*afasta o botão dos redor*/
+    box-shadow: 5px 5px 50px rgb(150, 3, 3);
+
+    background: linear-gradient(45deg, #ff0000, #8b0000);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+button{
+
+    transition: 0.5s ease-in-out;
+    cursor: pointer; ;
+}
+
+button:hover{
+    transform: scale(1.1);
+    
+}
